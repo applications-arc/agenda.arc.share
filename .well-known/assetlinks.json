@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.agendacompiegne.agendacompiegne",
+      "sha256_cert_fingerprints": [
+        "1B:E5:84:2D:08:A8:E0:FC:42:48:0D:01:A1:99:C2:7D:65:3F:98:23:DF:5C:97:9F:9B:75:8E:E5:EF:A3:45:28"
+      ]
+    }
+  }
+]
