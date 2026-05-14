@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#1E5BB8">
-  <title>Ouverture d'Agenda Compiègne…</title>
+  <title>Ouverture d'Agenda ARC…</title>
   <style>
     * { box-sizing: border-box; }
     body {
@@ -67,8 +67,8 @@
 
   <div id="fallback">
     <p style="margin-top: 32px; font-size: 1rem;">L'application ne s'est pas ouverte ?</p>
-    <a class="cta" id="install-link" href="https://play.google.com/store/apps/details?id=app.agendacompiegne.agendacompiegne">
-      <span class="icon">📲</span>Installer Agenda Compiègne
+    <a class="cta" id="install-link" href="https://play.google.com/store/apps/details?id=app.agendaarc.agendaarc">
+      <span class="icon">📲</span>Installer Agenda ARC
     </a>
     <br>
     <a class="secondary" id="retry-link" href="#">Réessayer l'ouverture</a>
@@ -76,14 +76,14 @@
 
   <script>
     (function () {
-      var PLAY_STORE = 'https://play.google.com/store/apps/details?id=app.agendacompiegne.agendacompiegne';
+      var PLAY_STORE = 'https://play.google.com/store/apps/details?id=app.agendaarc.agendaarc';
 
-      // Extract the event id from /agendacompiegne-share/event/{id}
+      // Extract the event id from /agenda.arc.share/event/{id}
       var match = location.pathname.match(/\/event\/(.+?)\/?$/);
       var eventId = match ? match[1] : '';
       var customScheme = eventId
-        ? 'agendacompiegne://event/' + eventId
-        : 'agendacompiegne://event';
+        ? 'agendaarc://event/' + eventId
+        : 'agendaarc://event';
 
       // Try opening the app via the custom scheme. If it's installed,
       // Android will intercept and the user is moved to the app.
@@ -99,7 +99,7 @@
       // user out of the event they were viewing.
       //
       // Instead, we attempt the custom scheme right away, and after
-      // 2.5 s reveal a manual « Installer Agenda Compiègne » button so
+      // 2.5 s reveal a manual « Installer Agenda ARC » button so
       // users without the app can still get there — but only if THEY
       // tap the button. Never automatic.
       window.location.replace(customScheme);
