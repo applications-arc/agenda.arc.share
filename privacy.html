@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1E5BB8">
+  <title>Agenda ARC — Politique de confidentialité</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: linear-gradient(180deg, #CED9E6 0%, #E2E8EF 100%);
+      color: #15202B;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+      min-height: 100vh;
+      line-height: 1.65;
+    }
+    header {
+      margin-bottom: 28px;
+    }
+    h1 {
+      color: #1E5BB8;
+      font-size: 1.8rem;
+      letter-spacing: -0.4px;
+      margin: 0 0 6px;
+    }
+    .lead {
+      color: #5A6573;
+      margin: 0;
+      font-size: 0.95rem;
+    }
+    h2 {
+      color: #15202B;
+      font-size: 1.15rem;
+      margin: 36px 0 10px;
+      padding-top: 14px;
+      border-top: 1px solid #C9D2DC;
+      letter-spacing: -0.2px;
+    }
+    h2:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+    p, li {
+      font-size: 0.95rem;
+      color: #1F2A36;
+    }
+    ul {
+      padding-left: 22px;
+    }
+    li { margin: 4px 0; }
+    strong { color: #15202B; }
+    code {
+      background: #E2E8EF;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      color: #143F80;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      background: #FFFFFFAA;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid #E2E8EF;
+      font-size: 0.9rem;
+      vertical-align: top;
+    }
+    th {
+      background: #E8F1FE;
+      font-weight: 700;
+      color: #143F80;
+      letter-spacing: 0.2px;
+    }
+    tr:last-child td { border-bottom: none; }
+    .summary {
+      background: #FFFFFF;
+      border-left: 4px solid #1E5BB8;
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin: 18px 0 32px;
+      box-shadow: 0 2px 8px rgba(30, 91, 184, 0.08);
+    }
+    .summary strong { color: #1E5BB8; }
+    footer {
+      margin-top: 56px;
+      padding-top: 18px;
+      border-top: 1px solid #C9D2DC;
+      color: #5A6573;
+      font-size: 0.85rem;
+    }
+    footer a { color: #1E5BB8; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Politique de confidentialité</h1>
+    <p class="lead">Application <strong>Agenda ARC</strong> — événements de l'Agglomération de la Région de Compiègne</p>
+  </header>
+
+  <div class="summary">
+    <strong>En résumé</strong> — Agenda ARC ne collecte aucune donnée
+    personnelle. Aucune analyse de comportement, aucune publicité,
+    aucun compte utilisateur, aucun tracker. Les seules informations
+    qui restent sur votre téléphone (favoris, source favorite, cache
+    des événements) y sont stockées localement et ne sont jamais
+    envoyées à un serveur tiers.
+  </div>
+
+  <h2>1. Éditeur de l'application</h2>
+  <p>
+    Agenda ARC est éditée à titre personnel par <strong>Thomas Charrier</strong>,
+    habitant de l'agglomération de Compiègne. L'application est
+    <strong>non-officielle</strong> : elle agrège des informations événementielles
+    publiques de l'agglomération (Le Picantin, publications officielles,
+    etc.) dans une interface mobile, sans lien contractuel avec la
+    Communauté d'agglomération de la Région de Compiègne.
+  </p>
+  <p>Contact : <code>contact@agendaarc.fr</code></p>
+
+  <h2>2. Données personnelles collectées</h2>
+  <p>
+    <strong>Aucune donnée personnelle n'est collectée.</strong>
+    L'application ne demande pas la création d'un compte, ne demande
+    pas d'adresse e-mail, ne lit pas votre carnet d'adresses, et ne
+    transmet aucune information à un serveur d'analyse.
+  </p>
+  <p>En particulier, ne sont <strong>pas</strong> collectés ni transmis :</p>
+  <ul>
+    <li>identité, nom, prénom, adresse e-mail, téléphone</li>
+    <li>position géographique de l'utilisateur</li>
+    <li>historique de navigation, identifiants publicitaires, IDFA, AAID</li>
+    <li>statistiques d'usage, clics, temps passé dans l'application</li>
+    <li>contenus du carnet d'adresses ou des contacts</li>
+  </ul>
+
+  <h2>3. Données stockées localement sur votre appareil</h2>
+  <p>
+    Pour que l'application reste fonctionnelle hors-ligne et garde vos
+    préférences, certaines informations sont conservées <strong>uniquement
+    sur votre téléphone</strong>, dans l'espace de stockage privé de l'application
+    (sandbox Android) :
+  </p>
+  <table>
+    <thead>
+      <tr><th>Donnée</th><th>Finalité</th><th>Effacement</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cache des événements et points d'intérêt téléchargés
+            depuis GitHub</td>
+        <td>Permettre la consultation hors-ligne et accélérer
+            l'ouverture de l'application</td>
+        <td>Effacé en désinstallant l'application ou en vidant
+            ses données dans les paramètres Android</td>
+      </tr>
+      <tr>
+        <td>Événements mis en favoris (« Mon agenda »)</td>
+        <td>Garder vos favoris d'une session à l'autre</td>
+        <td>Idem</td>
+      </tr>
+      <tr>
+        <td>Source favorite (préférence d'affichage par défaut)</td>
+        <td>Pré-filtrer l'agenda sur cette source au démarrage</td>
+        <td>Idem</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    Ces données <strong>ne quittent jamais</strong> votre appareil. Elles ne sont
+    ni sauvegardées sur un cloud par l'application elle-même, ni
+    accessibles à l'éditeur.
+  </p>
+
+  <h2>4. Permissions Android utilisées</h2>
+  <table>
+    <thead>
+      <tr><th>Permission</th><th>Pourquoi</th><th>Quand</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>INTERNET</code></td>
+        <td>Télécharger les fichiers d'événements et les tuiles
+            cartographiques OpenStreetMap</td>
+        <td>À l'ouverture de l'application et lors d'une
+            synchronisation manuelle</td>
+      </tr>
+      <tr>
+        <td><code>READ_CALENDAR</code> /<br><code>WRITE_CALENDAR</code></td>
+        <td>Ajouter un événement à votre agenda téléphone
+            (Google Agenda, Outlook, Apple Calendar) via le sélecteur
+            natif du système</td>
+        <td><strong>Uniquement</strong> quand vous appuyez sur le
+            bouton « Ajouter à mon calendrier » dans le détail d'un
+            événement</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    L'application <strong>ne demande pas</strong> les permissions de localisation,
+    de microphone, d'appareil photo, ni d'accès aux SMS ou aux contacts.
+  </p>
+
+  <h2>5. Services tiers contactés</h2>
+  <p>
+    Pour fonctionner, l'application établit des connexions HTTPS sortantes
+    vers les services suivants. Ces connexions transmettent uniquement
+    les informations strictement nécessaires (URL demandée, en-têtes
+    HTTP standards) et ne contiennent <strong>aucun identifiant utilisateur</strong>.
+  </p>
+  <table>
+    <thead>
+      <tr><th>Service</th><th>Domaine</th><th>Données transmises</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>GitHub (hébergement des fichiers d'événements)</td>
+        <td><code>api.github.com</code>, <code>raw.githubusercontent.com</code></td>
+        <td>URL des fichiers JSON demandés. Aucune information
+            personnelle.</td>
+      </tr>
+      <tr>
+        <td>OpenStreetMap (tuiles cartographiques)</td>
+        <td><code>tile.openstreetmap.org</code></td>
+        <td>Coordonnées des tuiles affichées. Aucune information
+            personnelle.</td>
+      </tr>
+      <tr>
+        <td>Nominatim (géocodage d'adresses)</td>
+        <td><code>nominatim.openstreetmap.org</code></td>
+        <td>Adresse du lieu d'un événement à afficher sur la carte.
+            Aucune information personnelle.</td>
+      </tr>
+      <tr>
+        <td>GitHub Pages (page d'accueil partage)</td>
+        <td><code>applications-arc.github.io</code></td>
+        <td>Page atterrissant lors d'un clic sur un lien partagé.
+            Aucune information personnelle.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    Chacun de ces services peut, indépendamment de l'application,
+    enregistrer des journaux techniques (adresse IP, User-Agent) selon
+    sa propre politique. L'application n'a aucun moyen d'agir sur ces
+    journaux et n'y accède pas.
+  </p>
+
+  <h2>6. Partage de données avec des tiers</h2>
+  <p>
+    <strong>Aucun partage.</strong> L'application ne transmet, ne vend, ni ne loue
+    aucune donnée. Aucun SDK publicitaire ou analytique n'est intégré.
+  </p>
+
+  <h2>7. Conservation des données</h2>
+  <p>
+    Les données stockées localement (cache, favoris, préférence de source)
+    sont conservées tant que l'application reste installée. Elles sont
+    automatiquement effacées si vous désinstallez l'application ou
+    « videz les données » de l'application dans les paramètres Android.
+  </p>
+
+  <h2>8. Sécurité</h2>
+  <p>
+    Toutes les communications réseau de l'application se font en
+    <strong>HTTPS</strong>. Le stockage local utilise le sandbox privé Android :
+    les données ne sont accessibles ni à d'autres applications, ni à
+    l'utilisateur sans accès root au téléphone.
+  </p>
+
+  <h2>9. Public et enfants</h2>
+  <p>
+    L'application s'adresse à un public général. Elle ne cible
+    spécifiquement pas les enfants et ne collecte aucune donnée
+    permettant d'identifier l'âge ou l'identité d'un utilisateur.
+  </p>
+
+  <h2>10. Vos droits</h2>
+  <p>
+    Comme aucune donnée personnelle n'est collectée, les droits prévus
+    par le RGPD (accès, rectification, suppression, opposition,
+    portabilité) sont sans objet vis-à-vis de l'éditeur. Pour effacer
+    les données stockées sur votre téléphone, désinstallez l'application
+    ou videz ses données dans les paramètres Android.
+  </p>
+  <p>
+    Pour toute question, vous pouvez contacter l'éditeur à l'adresse
+    indiquée en section 1.
+  </p>
+
+  <h2>11. Modifications de la politique</h2>
+  <p>
+    Cette politique peut être mise à jour à mesure que l'application
+    évolue. La date de la dernière mise à jour est indiquée en bas
+    de page. Toute modification matérielle (par exemple l'ajout d'un
+    nouveau service tiers) sera reflétée ici.
+  </p>
+
+  <footer>
+    <p>
+      Dernière mise à jour : <strong>19 mai 2026</strong><br>
+      <a href="./">Retour à la page d'accueil Agenda ARC</a>
+    </p>
+  </footer>
+</body>
+</html>
